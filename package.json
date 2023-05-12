@@ -1,6 +1,17 @@
 {
   "name": "@sigveh/nuxt-base",
+  "type": "module",
   "version": "0.0.1",
+  "description": "A Nuxt layer with accessible components, SEO tooling and more",
+  "license": "MIT",
+  "homepage": "https://github.com/sifferhans/nuxt-base",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sifferhans/nuxt-base.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sifferhans/nuxt-base/issues"
+  },
   "main": "./nuxt.config.ts",
   "files": [
     "components",
