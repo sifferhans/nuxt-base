@@ -1,7 +1,7 @@
 {
   "name": "@sigveh/nuxt-base",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Nuxt layer with accessible components, SEO tooling and more",
   "license": "MIT",
   "homepage": "https://github.com/sifferhans/nuxt-base",
