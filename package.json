@@ -1,5 +1,6 @@
 {
   "name": "@sigveh/nuxt-base",
+  "version": "0.0.1",
   "main": "./nuxt.config.ts",
   "files": [
     "components",
