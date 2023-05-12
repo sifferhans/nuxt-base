@@ -1,7 +1,7 @@
 {
   "name": "@sigveh/nuxt-base",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Nuxt layer with accessible components, SEO tooling and more",
   "license": "MIT",
   "homepage": "https://github.com/sifferhans/nuxt-base",
@@ -22,7 +22,6 @@
     "build": "nuxt build playground",
     "generate": "nuxt generate playground",
     "preview": "nuxt preview playground",
-    "postinstall": "nuxt prepare playground",
     "lint": "eslint .",
     "release": "bumpp package.json --commit --push --tag"
   },
