@@ -2,6 +2,10 @@
 
 A Nuxt layer with accessible components, SEO tooling and more.
 
+```bash
+pnpm install -D @sigveh/nuxt-base
+```
+
 ## Setup
 
 Make sure to install the dependencies:
