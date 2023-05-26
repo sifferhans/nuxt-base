@@ -6,22 +6,37 @@
       <h2>Buttons</h2>
       <div class="flex flex-col gap-3">
         <div class="flex gap-3">
-          <BaseButton intent="tertiary">Tertiary button</BaseButton>
-          <BaseButton intent="secondary">Secondary button</BaseButton>
-          <BaseButton intent="primary">Primary button</BaseButton>
+          <Button intent="tertiary">Tertiary button</Button>
+          <Button intent="secondary">Secondary button</Button>
+          <Button intent="primary">Primary button</Button>
         </div>
 
         <div class="flex gap-3">
-          <BaseButton intent="tertiary" loading>Tertiary button</BaseButton>
-          <BaseButton intent="secondary" loading>Secondary button</BaseButton>
-          <BaseButton intent="primary" loading>Primary button</BaseButton>
+          <Button intent="tertiary" loading>Tertiary button</Button>
+          <Button intent="secondary" loading>Secondary button</Button>
+          <Button intent="primary" loading>Primary button</Button>
         </div>
 
         <div class="flex gap-3">
-          <BaseButton intent="tertiary" disabled>Tertiary button</BaseButton>
-          <BaseButton intent="secondary" disabled>Secondary button</BaseButton>
-          <BaseButton intent="primary" disabled>Primary button</BaseButton>
+          <Button intent="tertiary" disabled>Tertiary button</Button>
+          <Button intent="secondary" disabled>Secondary button</Button>
+          <Button intent="primary" disabled>Primary button</Button>
         </div>
+      </div>
+    </section>
+
+    <section id="select">
+      <h2>Select</h2>
+      <div class="flex flex-col gap-3">
+        <Select
+          :options="[
+            { label: 'React', value: 'react' },
+            { label: 'Vue', value: 'vue' },
+            { label: 'Svelte', value: 'svelte' },
+            { label: 'Qwik', value: 'qwik' },
+            { label: 'Solid', value: 'solid' },
+          ]"
+        />
       </div>
     </section>
   </div>

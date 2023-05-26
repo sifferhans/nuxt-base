@@ -28,11 +28,9 @@ const rootClasses = cva(
     variants: {
       intent: {
         primary:
-          "bg-slate-900 text-white hover:bg-slate-700 data-[pressed]:bg-slate-800",
-        secondary:
-          "bg-slate-100 hover:bg-slate-200 data-[pressed]:bg-slate-300",
-        tertiary:
-          "bg-transparent hover:bg-slate-100 data-[pressed]:bg-slate-200",
+          "bg-gray-900 text-white hover:bg-gray-700 data-[pressed]:bg-gray-800",
+        secondary: "bg-gray-100 hover:bg-gray-200 data-[pressed]:bg-gray-300",
+        tertiary: "bg-transparent hover:bg-gray-100 data-[pressed]:bg-gray-200",
       },
       hasIcon: {
         true: "pl-2.5",
@@ -53,7 +51,7 @@ const innerClasses = cva(
   {
     variants: {
       loading: {
-        true: "opacity-0 translate-y-1",
+        true: "opacity-0 trangray-y-1",
       },
     },
   }
